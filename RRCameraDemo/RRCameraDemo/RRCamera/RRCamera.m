@@ -297,7 +297,7 @@
     self = [super init];
     
     if (self != nil) {
-        self.view.backgroundColor = [UIColor redColor];
+        self.view.backgroundColor = [UIColor blackColor];
         _currentDevicePosition = AVCaptureDevicePositionFront;
         _defaultDevice = AVCaptureDevicePositionBack;
         _allowSwitchDevice = YES;
